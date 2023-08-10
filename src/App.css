@@ -1,38 +1,298 @@
-.App {
+.parent{
   text-align: center;
+  background-size: contain;
+  width: 100%;
+  /* height: 6100px; */
+  height: auto;
+  color: #ffff;
+  overflow: hidden;
+  /* background-repeat: no-repeat; */
+  /* display: flex;
+  justify-content: center; */
+  
+}
+.navbar-connect-logos{
+  color: #8a8fa3;
+}
+.navbar-connect-logos:hover{
+  color: #ffff;
+}
+#mynavbar{
+  background-color: transparent !important;
+}
+.homeCompParent{
+  padding-top: 180px;
+}
+.nftBtn{
+  background: #1f2827;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.EventBtn{
+  color: #5DC887;
+  margin-right: 10px;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 13px;
+  background: #5dc88740;
+  border-radius: 8px;
+}
+.mainHeading{
+  margin-top: 50px;
+  font-size: 60px;
+  font-weight: 600;
+  color:rgb(213, 211, 240);
+}
+.launchBtn,.unlockBtn,.btnWithoutBg{
+  height: 55px;
+  display: inline-flex;
+  appearance: none;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-duration: 200ms;
+  color: #ffff;
+  min-width: 112px;
+  font-size: 1rem;
+  padding-inline-start: 1rem;
+  padding-inline-end: 1rem;
+  padding: 16px 32px;
+  width: 200px;
+  cursor: pointer;
+  z-index: 100;
+}
+.navLaunchBtn{
+  height: 40px;
+  width: 180px;
+}
+.launchBtn{
+  background: linear-gradient(90deg, rgba(48, 99, 240, 0.85) 0%, rgba(124, 115, 250, 0.85) 100%);
+}
+.launchBtn:hover{
+  box-shadow: rgba(48, 99, 240, 0.75) 0px 0px 40px !important;
+  background: linear-gradient(90deg, rgba(48, 99, 240, 0.85) 0%, rgba(124, 115, 250, 0.85) 100%) !important;
+}
+.unlockBtn:hover{
+  background: rgba(194, 210, 255, 0.3) !important;
+}
+.unlockBtn{
+  background:rgba(194, 210, 255, 0.15) !important;
+  border: none !important;
+}
+.btnWithoutBg{
+  background: transparent !important;
+  border: none !important;
+}
+.homeCompParent{
+  position: static;
+  height: 75rem;
+}
+.videoParent{
+  position: relative;
+  top: -100px;
+  left: 0;
+}
+.bhVideo{
+  /* height: 30rem; */
+  transform: rotate(-4deg);
+  position: relative;
+}
+.videoBg{
+width: 500px;
+height: 500px;
+margin-top: 12%;
+border-radius: 50%;
+background: linear-gradient(90deg, rgba(48, 99, 240, 0.2) 0%, rgba(60, 48, 240, 0.2) 100%);
+filter: blur(50px);
+position: relative;
+top: -570px;
+margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.card1Para{
+  margin: 30px auto;
+  color: #b5b8d1;
+}
+.memCardPara{
+  margin: 30px 0;
+  color: #b5b8d1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.memCard{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 56px 64px;
+  width: 90%;
+  height: auto;
+  background: radial-gradient(121.99% 161.31% at 50% 123.36%, rgb(92, 98, 153) 0%, rgb(45, 52, 112) 35%, rgb(41, 30, 20) 100%);;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-bottom: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.memHead{
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.roadmapPar{
+  margin-bottom: 200px;
+  margin-top: 280px;
+}
+
+.card3{
+  width: 800px;
+  height: 120px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(77, 97, 153, 0.30);
+  backdrop-filter: blur(8px);
+}
+.card3:hover{
+  cursor: pointer;
+  background: rgba(194, 210, 255, 0.3)
+}
+
+.profileParent{
+  /* margin-bottom: 300px; */
+  margin-top: 250px;
+  height: 840px;
+}
+.para{
+  color: #b5b8d1;
+  width: 50%;
+  margin: auto;
+}
+
+.footer{
+  height: 250px;
+  background-color: #0c0d14;
+  margin-top: 109px;
+}
+ul li{
+  list-style: none;
+  color: rgba(214, 225, 255, 0.6);
+  cursor: pointer;
+}
+.footerListHead{
+  font-size: 18px;
+}
+.footerListElem{
+  margin: 14px auto;
+}
+.diskAnimation{
+  position: relative;
+  /* margin-bottom: 120px; */
+  top: -1710px;
+  left: 330px;
+}
+.sateliteAnimation{
+  transform: scaleX(-1);
+  position: relative;
+  top: -1380px;
+  right: 350px;
+
+}
+
+.card1Parent{
+  z-index: 100;
+  padding: static;
+  background: linear-gradient(135deg, rgba(90, 132, 250, 0.30) 0%, rgba(101, 90, 250, 0.30) 100%);
+  /* height:425px; */
+  height: auto;
+  min-height: 425px;
+  width: 700px;
+  margin: auto 65px;
+  margin-bottom: 180px;
+  border-radius: 20px;
+  padding: 64px 56px;
+  text-align: start;
+  backdrop-filter: blur(8px);
+  /* position: absolute !important; */
+}
+
+.height1800{
+  height: 1800px;
+}
+.colorGray{
+  color: #b5b8d1;
+}
+.darkBtn{
+  width: 200px;
+  height: 55px;
+  background-color: black !important;
+  font-weight: bold !important;
+  margin-top: 30px;
+}
+
+.readmapMoon{
+  padding-left: 50px !important;
+}
+.readmapMoon h1{
+  padding-top: 50px;
+  font-weight: 400;
+}
+.readmapMoonParent{
+  margin-left: 100px !important;
+}
+
+.disk2{
+  position: relative;
+  top: -300px;
+  left: 550px;
+}
+.w-md-50{
+  width: 50%;
+}
+.joinCardMem{
+  text-align: start;
+  width: 50%;
+}
+.btnHover :hover{
+  color: white !important;
+}
+
+.arrow{
+  transform: scaleX(-1);
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .mainHeading{
+    font-size: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  .bhVideo{
+    margin-top: 100px;
+    width: 500px;
+  }
+  .videoBg{
+    top: -400px;
+  }
+  .card1{
+    width: 100%;
+  }
+  .card3{
+    width: 100%;
+  }
+  .card1Parent{
+    margin: 20px;
+  }
+  .w-md-50{
+    width: 100%;
+  }
+  .joinCardMem{
+    width: 100%;
   }
 }
